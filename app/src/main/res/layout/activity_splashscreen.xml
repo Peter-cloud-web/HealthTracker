@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/health">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Track your Hospital Donations " />
+
+    <Button
+        android:id="@+id/loginasdonor"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/splashscreenbuttons"
+        android:shadowColor="@android:color/transparent"
+        android:text="SIGN IN AS DONOR"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/loginashospital"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_width="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/splashscreenbuttons"
+        android:shadowColor="@android:color/transparent"
+        android:text="SIGN IN AS A HOSPITAL"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

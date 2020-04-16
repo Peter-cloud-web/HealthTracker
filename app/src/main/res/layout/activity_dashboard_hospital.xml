@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/endBlue">
+
+                <TextView
+                    android:id="@+id/dash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hospital Dashboard"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_below="@+id/dash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dashUserName"
+                    android:text="aHospital Names"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_marginLeft="20dp"
+            android:columnOrderPreserved="false">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="6dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="160dp"
+                android:background="@color/grayLight">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/dashHospitalProfile"
+                    android:clickable="true"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/hospitalprofile"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textSize="13sp"
+                    android:text="Hospital Profile"
+                    android:textStyle="bold"
+                    android:textColor="@color/endBlue"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="6dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="160dp"
+                android:background="@color/grayLight">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/donationhistory"
+                    android:clickable="true"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/history"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textSize="13sp"
+                    android:text="History of donations"
+                    android:textStyle="bold"
+                    android:textColor="@color/endBlue"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="6dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grayLight">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/requestDonation"
+                    android:clickable="true"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/donate"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textSize="13sp"
+                    android:text="Request for Donation"
+                    android:textStyle="bold"
+                    android:textColor="@color/endBlue"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="6dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grayLight">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/newdonation"
+                    android:clickable="true"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/track"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textSize="13sp"
+                    android:text="Register new donation"
+                    android:textStyle="bold"
+                    android:textColor="@color/endBlue"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="6dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grayLight">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/notifications"
+                    android:clickable="true"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/notifications"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textSize="13sp"
+                    android:text="Notifications"
+                    android:textStyle="bold"
+                    android:textColor="@color/endBlue"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="6dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grayLight">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+
+                <ImageView
+                    android:id="@+id/help"
+                    android:clickable="true"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/help"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textSize="13sp"
+                    android:text="Help"
+                    android:textStyle="bold"
+                    android:textColor="@color/endBlue"/>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="6dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grayLight">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/settings"
+                    android:clickable="true"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/settings"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textSize="13sp"
+                    android:text="Settings"
+                    android:textStyle="bold"
+                    android:textColor="@color/endBlue"/>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="6dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grayLight">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/logout"
+                    android:clickable="true"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/logout"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textSize="13sp"
+                    android:text="logout"
+                    android:textStyle="bold"
+                    android:textColor="@color/endBlue"/>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

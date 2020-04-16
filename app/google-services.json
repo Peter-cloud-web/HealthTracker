@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "481790674452",
+    "firebase_url": "https://healthcare-tracking-system.firebaseio.com",
+    "project_id": "healthcare-tracking-system",
+    "storage_bucket": "healthcare-tracking-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481790674452:android:d5fb2f0032eb821103c901",
+        "android_client_info": {
+          "package_name": "com.moringa.healthtrackerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481790674452-9tv16u7dgtut9hhotvvgigfhtskfd7u8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moringa.healthtrackerapp",
+            "certificate_hash": "33aeaeccac5e6f69a1d25f5b1660ddd8656e2e44"
+          }
+        },
+        {
+          "client_id": "481790674452-cl3ada7ca16piloevf62u1pp670ui5ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfC1S4ELTesYjnEEu8ZgWt5rXLuHRt8lI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481790674452-cl3ada7ca16piloevf62u1pp670ui5ul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
